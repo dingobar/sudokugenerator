@@ -1,9 +1,9 @@
 from typing import Callable, Tuple
 import pytest
 import numpy as np
-from models.position import Position
+from sudokugenerator.models.position import Position
 
-from services.board_service import Board
+from sudokugenerator.services.board_service import Board
 
 
 @pytest.fixture

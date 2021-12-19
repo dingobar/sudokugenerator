@@ -2,8 +2,7 @@ from logging import getLogger, basicConfig, DEBUG
 import numpy as np
 import pytest
 from numpy.typing import ArrayLike
-from services.sudoku_generator_service import SudokuGenerator
-
+from sudokugenerator.services.sudoku_generator_service import SudokuGenerator
 
 
 basicConfig(format="%(levelname)s:%(message)s", level=DEBUG)

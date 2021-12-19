@@ -2,9 +2,9 @@ from typing import List, Tuple
 import numpy as np
 from numpy.typing import ArrayLike
 
-from interfaces.board_interface import BoardInterface
+from sudokugenerator.interfaces.board_interface import BoardInterface
 
-from models.position import Position
+from sudokugenerator.models.position import Position
 
 
 EMPTY = 0

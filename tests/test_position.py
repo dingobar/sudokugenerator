@@ -1,5 +1,5 @@
 import pytest
-from models.position import Position
+from sudokugenerator.models.position import Position
 
 
 @pytest.fixture

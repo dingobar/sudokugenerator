@@ -1,10 +1,10 @@
 import random
 import time
 from typing import Hashable, List
-from interfaces.sudoku_generator_interface import SudokuGeneratorInterface
-from models.position import Position
+from sudokugenerator.interfaces.sudoku_generator_interface import SudokuGeneratorInterface
+from sudokugenerator.models.position import Position
 
-from services.board_service import Board
+from sudokugenerator.services.board_service import Board
 
 from log import logger
 
